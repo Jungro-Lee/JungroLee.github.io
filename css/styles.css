@@ -8037,7 +8037,8 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  /*color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;*/
+  color: #87CEEB !important; /* 하늘색 */
 }
 
 .text-secondary {
@@ -10929,7 +10930,7 @@ p.lead {
   height: 3.5rem;
   width: 3.5rem;
   background-color: #495057;
-  color: #fff;
+  color: #87CEEB;
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
