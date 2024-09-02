@@ -8038,7 +8038,7 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   /*color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;*/
-  color: #87CEEB !important; /* 하늘색 */
+   color: rgba(135, 206, 235, var(--bs-text-opacity)) !important; 
 }
 
 .text-secondary {
@@ -8130,7 +8130,8 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
  /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;*/
-  background-color: #007bff !important;
+  --bs-primary-rgb: 0, 123, 255; /* 파란색으로 RGB 값 설정 */
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
